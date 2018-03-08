@@ -74,9 +74,9 @@ def validate_csv(reader: DictReader) -> bool:
             return False
     return True
 
-data_root = 
-datafile = 
-DATA = os.path.direct.join(data_root, datafile)
+data_root = 'validation'
+datafile = 'c3_svr_ctr_bb1.csv'
+DATA = os.path.join(data_root, datafile)
 
 #.strip()
 
@@ -84,6 +84,5 @@ DATA = os.path.direct.join(data_root, datafile)
 data_csv_reader = DictReader(StringIO(DATA))
 
 
-print(validate_csv(mock_data_csv_reader))
+print(validate_csv(data_csv_reader))
 
-print(validate_csv(DictReader('foo')))
