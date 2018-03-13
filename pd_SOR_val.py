@@ -36,7 +36,8 @@ for index, row in df.iterrows():
 	else:
 		print('invalid form number: ' + row["SOR_Form_Number"])
 
-
+if __name__ == '__main__':
+	main()
 
 
 
